@@ -1,6 +1,21 @@
+body{
+    background-color: blanchedalmond;
+}
+
+h1{
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
 .box1 {
     display: flex;
     width: 300px;
+    border: solid 2px rgba(43, 40, 40, 0.5);
+    border-radius: 5px;
+    margin: 20px 300px;
+    background-color: white;
+    padding: 20px;
 }
 
 .box1 img{
@@ -24,6 +39,12 @@
 .box2 {
     display: flex;
     width: 300px;
+    border: solid 2px rgba(43, 40, 40, 0.5);
+    border-radius: 5px;
+    margin: 20px 300px;
+    background-color: white;
+    padding: 20px;
+
 }
 
 .box2 img{
@@ -47,6 +68,11 @@
 .box3 {
     display: flex;
     width: 300px;
+    border: solid 2px rgba(43, 40, 40, 0.5);
+    border-radius: 5px;
+    margin: 20px 300px;
+    background-color: white;
+    padding: 20px;
 }
 
 .box3 img{
@@ -70,6 +96,11 @@
 .box4 {
     display: flex;
     width: 300px;
+    border: solid 2px rgba(43, 40, 40, 0.5);
+    border-radius: 5px;
+    margin: 20px 300px;
+    background-color: white;
+    padding: 20px;
 }
 
 .box4 img{
