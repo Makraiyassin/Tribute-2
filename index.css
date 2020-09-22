@@ -1,0 +1,91 @@
+.box1 {
+    display: flex;
+    width: 300px;
+}
+
+.box1 img{
+    height: 250px;
+    width: 200px;
+    border-radius: 50%;
+    flex: auto;
+}
+
+.box1 a{
+    flex: auto;
+    text-decoration: none;
+    text-align: center;
+    color: crimson;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: 800;
+    padding: 20px;
+}
+
+.box2 {
+    display: flex;
+    width: 300px;
+}
+
+.box2 img{
+    height: 250px;
+    width: 200px;
+    border-radius: 50%;
+    flex: auto;
+}
+
+.box2 a{
+    flex: auto;
+    text-decoration: none;
+    text-align: center;
+    color: crimson;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: 800;
+    padding: 20px;
+}
+
+.box3 {
+    display: flex;
+    width: 300px;
+}
+
+.box3 img{
+    height: 250px;
+    width: 200px;
+    border-radius: 50%;
+    flex: auto;
+}
+
+.box3 a{
+    flex: auto;
+    text-decoration: none;
+    text-align: center;
+    color: crimson;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: 800;
+    padding: 20px;
+}
+
+.box4 {
+    display: flex;
+    width: 300px;
+}
+
+.box4 img{
+    height: 250px;
+    width: 200px;
+    border-radius: 50%;
+    flex: auto;
+}
+
+.box4 a{
+    flex: auto;
+    text-decoration: none;
+    text-align: center;
+    color: crimson;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: 800;
+    padding: 20px;
+}
