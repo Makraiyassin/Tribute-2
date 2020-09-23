@@ -54,6 +54,7 @@ p{
 
 li{
     color: rgb(145, 129, 80);
+    list-style-type: "👉 ";
 }
 
 a{  
