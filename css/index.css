@@ -2,6 +2,7 @@ body{
     background-image: url(images-css/background.jpg);
 }
 
+
 .navbar ul{
     list-style-type: none;
     margin: 0;
@@ -36,7 +37,6 @@ body{
 li:last-child {
     border-right: none;
   }
-
 
 h1{
     text-align: center;
