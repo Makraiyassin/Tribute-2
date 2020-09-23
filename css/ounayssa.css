@@ -1,7 +1,7 @@
 body{
     color: rgb(17, 16, 16);
     opacity: 0.7;
-    background-image: url(https://github.com/Makraiyassin/Tribute-2/tree/gh-pages/images/background2.jpg);
+    background-image: url(images-css/background2.jpg);
     background-size: contain;
     background-repeat: repeat;
 }
