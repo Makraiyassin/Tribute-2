@@ -1,0 +1,96 @@
+body{
+	background-color: black;
+	font-family: arial;
+	text-align: center;
+	color: white;
+	margin-left: 15%;
+	margin-right: 15%;
+}
+
+
+.bio {
+	border-radius: 15px;
+
+}
+
+
+.contenu {
+	display: inline-flex;
+}
+
+
+h1 {
+  text-align: center;
+  color: yellow;
+}
+
+p {
+	text-align: justify;
+	 
+}
+
+.official{
+	text-align: center;
+	padding: 20px;
+	display: block;
+	margin: auto;
+	font-size: 20px; 
+	color: white;
+}
+
+
+.inspiration {
+	display: flex;
+	
+}
+.inspiration div {
+	padding: 20px;
+}
+.box1 {
+flex: 1;
+}
+.box2 {
+	flex: 1;	
+}
+.box3 {
+	flex: 1;	
+}
+
+.galerie{
+	display: flex;
+	justify-content: space-around;
+	color: black;
+	
+}
+
+.wtj p, a:link{
+	text-align: center;
+	text-decoration: none;
+	color: white;
+
+}
+
+.sweet p{
+	text-align: center;
+}
+
+.bemine p, img{
+	text-align: center;
+	height: 200px;
+}
+
+ a:hover{
+	 color: yellow;
+ }
+
+
+
+
+
+
+
+
+ 
+
+
+
