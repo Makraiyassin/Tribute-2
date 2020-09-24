@@ -32,7 +32,7 @@ body{
     color: white;
     text-align: center;
     padding: 14px 16px;
-    text-decoration: none;  
+    text-decoration: none;
 }
 
 .navbar li a:hover {
@@ -101,7 +101,7 @@ p{
     list-style-type: "👉 ";
 }
 
-.container a{  
+.container a{
     font-weight: bold;
     font-size: 24px;
     background-color: rgb(104, 52, 4);
@@ -121,4 +121,61 @@ p{
 .box1:hover img{
     height: 350px;
     transition: 1s;
+}
+
+.end{
+  margin-right: auto;
+  margin-left: auto;
+  padding: 25px;
+  width: 800px;
+  display: flex;
+}
+
+.letter{
+  flex: left;
+}
+
+.letter h4{
+  font-size: 44px;
+  font-weight: bold;
+}
+
+input[type=text]{
+
+    border-style: none;
+    box-shadow: 0 3px 8px lightgrey, -3px -3px 8px lightgray;
+    font-size: 30px;
+    height: 75px;
+    margin-top: 15px;
+    width: 350px;
+}
+
+input[type=textl]:hover {
+  cursor: pointer;
+}
+
+input[type=text]:focus {
+    background-color: #dfc4db;
+    cursor: text;
+}
+
+input[type=submit]{
+  background-color: rgb(247, 201, 116);
+  border-style: none;
+  box-shadow: 3px 3px 8px lightgrey, 0 -3px 8px lightgray;
+  color: rgb(52, 24, 122);
+  font-size: 30px;
+  height: 75px;
+  width: 75px;
+}
+
+input[type=submit]:hover {
+    width: 100px;
+    transition: width 1s;
+}
+
+
+.map{
+  margin-left: auto;
+  flex: left;
 }
