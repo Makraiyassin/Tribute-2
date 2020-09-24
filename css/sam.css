@@ -1,57 +1,163 @@
 body{
+   
     background-image: url('https://www.quickanddirtytips.com/sites/default/files/images/4064/blue-sky-clouds.jpg');
+    
     opacity: 0.75;
+    
     height: 100%;
 
-
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .navbar ul{
+    
     list-style-type: none;
+    
     margin: 0;
+    
     padding: 0;
+    
     overflow: hidden;
+    
     background-color:#e66767;
+
 }
 
 .navbar li{
+
     float: left;
+
     border-right: 1px solid #bbb;
+
 }
 
 .navbar li a{
+
     display: block;
+
     color: white;
+
     text-align: center;
+
     padding: 14px 16px;
+
     text-decoration: none;  
+
 }
 
 .navbar li a:hover {
+
     background-color: #111;
+
     color: white;
-  }
+
+}
 
 li:last-child {
+
     border-right: none;
-  }
+
+}
 
 header {
+
     border-radius: 5px;
+
     background-color: #e66767;
+
     padding: 3%;
-    margin-top: 25px;
+
+    margin-top: 90px;
+
     margin-bottom: 5%;
+
     margin-right: 260px;
+
     margin-left: 260px;
+
     box-shadow: 5px 5px #c44569;
+
 }
 
 .bio {
 
     text-align: justify;
-    padding: 5%;
+
+    padding: 30px;
+    
+    
 }
+
+
+.map {
+
+    display: block;
+
+    margin-left: auto;
+
+    margin-right: auto;
+
+    width: 50%;
+
+    padding: 10px;
+
+    border: 10px solid #2b90e2
+
+    
+}
+
+
+a {
+
+    font-family: 'Kumbh Sans', sans-serif;
+
+    font-weight: normal;
+
+    font-style: normal;
+
+    text-indent: 20px;
+
+    line-height: 30px;
+
+}
+
+
+
+
+div.born {
+
+    vertical-align: top;
+    
+    display: inline-block;
+    
+    text-align: center;
+    
+    width: 550px;
+
+    display: inline-block;
+    
+
+}
+
+.caption {
+   
+    display: inline-flex;
+    
+    font-family: 'Kumbh Sans', sans-serif;
+    
+    font-weight: normal;
+    
+    font-style: normal;
+    
+    text-indent: 20px;
+    
+    line-height: 30px;
+
+}
+
 
 .change {
 
@@ -59,44 +165,106 @@ header {
 }
 
 .both {
+
     display: flex;
+
     flex-direction: column;
+
+}
+
+h2 {
+
+    color: #D0F8FF;
+
+    font-size: 30px;
+
+    text-shadow: 0 0 5px #A5F1FF, 0 0 10px #A5F1FF,
+             0 0 20px #A5F1FF, 0 0 30px #A5F1FF,
+             0 0 40px #A5F1FF;
+
+    text-align: center;
+
+    margin-bottom: 70px;
+
+   
+}
+
+.underline {
+
+    text-decoration: underline #2b90e2;
+
+    color: #ECECF6;
+
+    text-shadow: -1px -1px 1px #FFFFFF, 1px 1px 1px #000000;
+
+    font-size: 20px;
 }
 
 .photo {
+
     display: block;
+
     margin: auto;
+
     border-radius: 50%;
-    height: 200px;
+
+    height: 250px;
+
     width: auto;
+
+    box-shadow: 3px 0 0 5px #A5F1FF, 0 0 10px #A5F1FF,
+    0 0 20px #A5F1FF, 0 0 30px #A5F1FF,
+    0 0 40px #A5F1FF;
+
 }
 
 p {
 
     font-family: 'Kumbh Sans', sans-serif;
+
     font-weight: normal;
+
     font-style: normal;
+
     text-indent: 20px;
+
     line-height: 30px;
 
  
 }
 
 h2 {
+
     font-family: 'Kumbh Sans', sans-serif;
 }
 
-p::first-letter {
-    font-size: 300%;
+p:first-letter {
+
+    font-size: 150%;
+
     color: #2b90e2;
-  }
+
+}
 
 section {   
+
     border-radius: 5px;
+
     background-color: #e66767;
+
     padding: 5%;
+
     margin-bottom: 5%;
+
     margin-right: 260px;
+
     margin-left: 260px;
+
     box-shadow: 5px 5px #c44569;
+
+}
+
+.list {
+
+    text-align: center;
 }
