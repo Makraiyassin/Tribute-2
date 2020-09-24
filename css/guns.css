@@ -16,8 +16,18 @@ body{
 
 .contenu {
 	display: inline-flex;
+	padding-top: 20px;
 }
 
+.lien{
+	display: flex;
+	margin-left: 38px;
+
+}
+
+.lien a:hover{
+	color: yellow;
+}
 
 h1 {
   text-align: center;
@@ -41,11 +51,13 @@ p {
 
 .inspiration {
 	display: flex;
+	margin-bottom: 50px;
 	
 }
-.inspiration div {
+.inspiration div{
 	padding: 20px;
 }
+
 .box1 {
 flex: 1;
 }
@@ -53,38 +65,82 @@ flex: 1;
 	flex: 1;	
 }
 .box3 {
-	flex: 1;	
+	flex: 1;
+
 }
 
-.galerie{
+.clip{
+	display: flex;
+	margin-left: 520px;
+	margin-top: 10px;
+	padding-bottom:10px;
+}
+
+.clip h3{
+	color: yellow;
+}
+
+.galerie {
 	display: flex;
 	justify-content: space-around;
-	color: black;
-	
+	padding-bottom: 50px;
+	padding-top: 20px;
 }
 
-.wtj p, a:link{
+.wtj p{
 	text-align: center;
+	color: yellow;
+
+}
+
+
+.sweet p {
+	text-align: center;
+	color: yellow;
+}
+
+.sweet img{
+	padding-top: 5px;
+
+}
+
+.bemine img{
+	height: 180px;
+	padding-top: 10px;
+
+}
+
+.bemine p{
+	text-align: center;
+	color: yellow;
+}
+
+a:link{
 	text-decoration: none;
-	color: white;
-
 }
 
-.sweet p{
-	text-align: center;
-}
 
-.bemine p, img{
-	text-align: center;
-	height: 200px;
-}
-
- a:hover{
-	 color: yellow;
+ .navbar ul{
+	 list-style-type: none;
+	 display: flex;
+	 margin-left:350px;
+	 
  }
 
+ .navbar li a{
+    color: white;
+	text-align: center;
+	padding: 10px;
+ }
 
+ .navbar li{
+	flex: left;
+ }
 
+ 
+.navbar a:hover{
+	color: yellow;
+}
 
 
 
