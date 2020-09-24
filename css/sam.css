@@ -1,0 +1,102 @@
+body{
+    background-image: url('https://www.quickanddirtytips.com/sites/default/files/images/4064/blue-sky-clouds.jpg');
+    opacity: 0.75;
+    height: 100%;
+
+
+}
+
+.navbar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#e66767;
+}
+
+.navbar li{
+    float: left;
+    border-right: 1px solid #bbb;
+}
+
+.navbar li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;  
+}
+
+.navbar li a:hover {
+    background-color: #111;
+    color: white;
+  }
+
+li:last-child {
+    border-right: none;
+  }
+
+header {
+    border-radius: 5px;
+    background-color: #e66767;
+    padding: 3%;
+    margin-top: 25px;
+    margin-bottom: 5%;
+    margin-right: 260px;
+    margin-left: 260px;
+    box-shadow: 5px 5px #c44569;
+}
+
+.bio {
+
+    text-align: justify;
+    padding: 5%;
+}
+
+.change {
+
+    text-align: justify ;
+}
+
+.both {
+    display: flex;
+    flex-direction: column;
+}
+
+.photo {
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+    height: 200px;
+    width: auto;
+}
+
+p {
+
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    text-indent: 20px;
+    line-height: 30px;
+
+ 
+}
+
+h2 {
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+p::first-letter {
+    font-size: 300%;
+    color: #2b90e2;
+  }
+
+section {   
+    border-radius: 5px;
+    background-color: #e66767;
+    padding: 5%;
+    margin-bottom: 5%;
+    margin-right: 260px;
+    margin-left: 260px;
+    box-shadow: 5px 5px #c44569;
+}
