@@ -5,38 +5,17 @@ body {
 
 /* NAV */
 
-.navbar{
-    margin-right: auto;
-    margin-left: auto;
-    padding: 10px;
-    width: 850px;
+nav {
+    display: flex;
+    justify-content: flex-end;
 }
 
-.navbar ul{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: rgb(90, 60, 12);
-}
-
-.navbar li{
-    float: left;
-    border-right: 1px solid #bbb;
-}
-
-.navbar li a{
-    display: block;
+nav>a {
+    text-decoration: none;
+    font-size: 30px;
     color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;  
+    padding: 30px;
 }
-
-.navbar li a:hover {
-    background-color: #111;
-    color: white;
-  }
 
 
 /* SECTION BIO */
@@ -149,7 +128,36 @@ h2 {
     display: inline-flex;
     padding-bottom: 5%;
 }
-
+.tracking-in-contract {
+	-webkit-animation: tracking-in-contract 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+	 animation: tracking-in-contract 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+@-webkit-keyframes tracking-in-contract {
+    0% {
+      letter-spacing: 1em;
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      letter-spacing: normal;
+      opacity: 1;
+    }
+  }
+  @keyframes tracking-in-contract {
+    0% {
+      letter-spacing: 1em;
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      letter-spacing: normal;
+      opacity: 1;
+    }
+  }
 .number {
     font-size: 5rem;
     color: red;
