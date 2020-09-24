@@ -51,7 +51,7 @@ h1{
     padding: 10px;
 }
 
-.div{
+.div1{
     display: flex;
 }
 
@@ -115,6 +115,10 @@ h1{
     font-weight: 800;
     padding: 20px;
 }
+
+.div2{
+    display: flex;
+} 
 
 .box3 {
     display: flex;
